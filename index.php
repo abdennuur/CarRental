@@ -68,14 +68,14 @@ error_reporting(0);
   <div class="container">
     <div class="section-header text-center">
       <h2>Trouvez la meilleure <span>voiture pour vous</span></h2>
-      <p>It is above all the uncompromising, performance-oriented aesthetic that unmistakeably reveals its ambitions. Not elegant but extravagant. Not conventional but individual.</p>
+      <p>C’est avant tout l’esthétique sans compromis, performante qui dévoile sans équivoque ses ambitions. Pas élégante mais extravagante. Pas conventionnel mais individuel.</p>
     </div>
     <div class="row"> 
       
       <!-- Nav tabs -->
       <div class="recent-tab">
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#resentnewcar" role="tab" data-toggle="tab">New Car</a></li>
+          <li role="presentation" class="active"><a href="#resentnewcar" role="tab" data-toggle="tab">Nouvelle Voiture</a></li>
         </ul>
       </div>
       <!-- Recently Listed New Cars -->
