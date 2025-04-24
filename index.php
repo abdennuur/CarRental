@@ -104,7 +104,7 @@ foreach($results as $result)
 </div>
 <div class="car-title-m">
 <h6><a href="vehical-details.php?vhid=<?php echo htmlentities($result->id);?>"><?php echo htmlentities($result->BrandName);?> , <?php echo htmlentities($result->VehiclesTitle);?></a></h6>
-<span class="price">MAD<?php echo htmlentities($result->PricePerDay);?> /Day</span> 
+<span class="price">MAD<?php echo htmlentities($result->PricePerDay);?> /Jour</span> 
 </div>
 <div class="inventory_info_m">
 <p><?php echo substr($result->VehiclesOverview,0,70);?></p>
@@ -127,7 +127,7 @@ foreach($results as $result)
         <div class="fun-facts-m">
           <div class="cell">
             <h2><i class="fa fa-calendar" aria-hidden="true"></i>40+</h2>
-            <p>Years In Business</p>
+            <p>Ans d'activité.</p>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@ foreach($results as $result)
         <div class="fun-facts-m">
           <div class="cell">
             <h2><i class="fa fa-car" aria-hidden="true"></i>1200+</h2>
-            <p>New Cars For Sale</p>
+            <p>Voitures neuves à vendre</p>
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@ foreach($results as $result)
         <div class="fun-facts-m">
           <div class="cell">
             <h2><i class="fa fa-car" aria-hidden="true"></i>1000+</h2>
-            <p>Used Cars For Sale</p>
+            <p>Voitures d'occasion à veundre</p>
           </div>
         </div>
       </div>
@@ -151,7 +151,7 @@ foreach($results as $result)
         <div class="fun-facts-m">
           <div class="cell">
             <h2><i class="fa fa-user-circle-o" aria-hidden="true"></i>600+</h2>
-            <p>Satisfied Customers</p>
+            <p>Clients satisfaits.</p>
           </div>
         </div>
       </div>
@@ -167,7 +167,7 @@ foreach($results as $result)
 <section class="section-padding testimonial-section parallex-bg">
   <div class="container div_zindex">
     <div class="section-header white-text text-center">
-      <h2>Our Satisfied <span>Customers</span></h2>
+      <h2>Nos Clients <span>Satisfaits.</span></h2>
     </div>
     <div class="row">
       <div id="testimonial-slider">
