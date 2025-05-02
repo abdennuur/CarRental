@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-md-2">
-          <div class="logo"> <a href="index.php"><img src="assets/images/logg.png" alt="image" style="width: 153px; height: 43px;"/></a> </div>
+          <div class="logo"> <a href="index.php"><img src="assets/images/logg.png" alt="image" style="width: 200px; height: 80px; left: 0; top: 0;"/></a> </div>
         </div>
         <div class="col-sm-9 col-md-10">
           <div class="header_info">
@@ -82,7 +82,7 @@ foreach($results as $result)
           <li><a href="page.php?type=aboutus">À Propos de Nous</a></li>
           <li><a href="car-listing.php">Nos Voitures</a>
           <li><a href="page.php?type=faqs">FAQs</a></li>
-          <li><a href="contact-us.php">Contactez-nous</a></li>
+          <li><a href="contact-us.php">Contact Us</a></li>
 
         </ul>
       </div>
