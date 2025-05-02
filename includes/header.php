@@ -12,11 +12,11 @@
    <?php   if(strlen($_SESSION['login'])==0)
 	{
 ?>
- <div class="login_btn"> <a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal" data-dismiss="modal">Login / Register</a> </div>
+ <div class="login_btn"> <a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal" data-dismiss="modal"> s'inscrire / se connecter</a> </div>
 <?php }
 else{
 
-echo "Welcome To Car rental portal";
+echo "Bienvenue à la location de voiture";
  } ?>
           </div>
         </div>
@@ -77,12 +77,12 @@ foreach($results as $result)
       </div>
       <div class="collapse navbar-collapse" id="navigation">
         <ul class="nav navbar-nav">
-          <li><a href="index.php">Home</a>    </li>
+          <li><a href="index.php">Accueil</a>    </li>
 
-          <li><a href="page.php?type=aboutus">About Us</a></li>
-          <li><a href="car-listing.php">Car Listing</a>
+          <li><a href="page.php?type=aboutus">À Propos de Nous</a></li>
+          <li><a href="car-listing.php">Nos Voitures</a>
           <li><a href="page.php?type=faqs">FAQs</a></li>
-          <li><a href="contact-us.php">Contact Us</a></li>
+          <li><a href="contact-us.php">Contactez-nous</a></li>
 
         </ul>
       </div>
