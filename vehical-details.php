@@ -124,7 +124,7 @@ $_SESSION['brndid']=$result->bid;
       </div>
       <div class="col-md-3">
         <div class="price_info">
-          <p>$<?php echo htmlentities($result->PricePerDay);?> </p>Per Day
+          <p><?php echo htmlentities($result->PricePerDay);?> .MAD </p>Par Jour
          
         </div>
       </div>
@@ -136,16 +136,16 @@ $_SESSION['brndid']=$result->bid;
           
             <li> <i class="fa fa-calendar" aria-hidden="true"></i>
               <h5><?php echo htmlentities($result->ModelYear);?></h5>
-              <p>Reg.Year</p>
+              <p>modèle</p>
             </li>
             <li> <i class="fa fa-cogs" aria-hidden="true"></i>
               <h5><?php echo htmlentities($result->FuelType);?></h5>
-              <p>Fuel Type</p>
+              <p>Type de Carburant</p>
             </li>
        
             <li> <i class="fa fa-user-plus" aria-hidden="true"></i>
               <h5><?php echo htmlentities($result->SeatingCapacity);?></h5>
-              <p>Seats</p>
+              <p>Siège</p>
             </li>
           </ul>
         </div>
@@ -153,9 +153,9 @@ $_SESSION['brndid']=$result->bid;
           <div class="listing_detail_wrap"> 
             <!-- Nav tabs -->
             <ul class="nav nav-tabs gray-bg" role="tablist">
-              <li role="presentation" class="active"><a href="#vehicle-overview " aria-controls="vehicle-overview" role="tab" data-toggle="tab">Vehicle Overview </a></li>
+              <li role="presentation" class="active"><a href="#vehicle-overview " aria-controls="vehicle-overview" role="tab" data-toggle="tab">Présentation du véhicule </a></li>
           
-              <li role="presentation"><a href="#accessories" aria-controls="accessories" role="tab" data-toggle="tab">Accessories</a></li>
+              <li role="presentation"><a href="#accessories" aria-controls="accessories" role="tab" data-toggle="tab">accessoires</a></li>
             </ul>
             
             <!-- Tab panes -->
@@ -173,12 +173,12 @@ $_SESSION['brndid']=$result->bid;
                 <table>
                   <thead>
                     <tr>
-                      <th colspan="2">Accessories</th>
+                      <th colspan="2"> accessoires</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Air Conditioner</td>
+                      <td> climatiseur</td>
 <?php if($result->AirConditioner==1)
 {
 ?>
@@ -188,7 +188,7 @@ $_SESSION['brndid']=$result->bid;
    <?php } ?> </tr>
 
 <tr>
-<td>AntiLock Braking System</td>
+<td>système de freinage antiblocage</td>
 <?php if($result->AntiLockBrakingSystem==1)
 {
 ?>
@@ -199,7 +199,7 @@ $_SESSION['brndid']=$result->bid;
                     </tr>
 
 <tr>
-<td>Power Steering</td>
+<td>direction assistée</td>
 <?php if($result->PowerSteering==1)
 {
 ?>
@@ -212,7 +212,7 @@ $_SESSION['brndid']=$result->bid;
 
 <tr>
 
-<td>Power Windows</td>
+<td>vitres électriques</td>
 
 <?php if($result->PowerWindows==1)
 {
@@ -224,7 +224,7 @@ $_SESSION['brndid']=$result->bid;
 </tr>
                    
  <tr>
-<td>CD Player</td>
+<td>navigation CarPlay/AndroidAuto </td>
 <?php if($result->CDPlayer==1)
 {
 ?>
@@ -235,7 +235,7 @@ $_SESSION['brndid']=$result->bid;
 </tr>
 
 <tr>
-<td>Leather Seats</td>
+<td>sièges chauffants</td>
 <?php if($result->LeatherSeats==1)
 {
 ?>
@@ -246,7 +246,7 @@ $_SESSION['brndid']=$result->bid;
 </tr>
 
 <tr>
-<td>Central Locking</td>
+<td> verrouillage centralisé</td>
 <?php if($result->CentralLocking==1)
 {
 ?>
@@ -257,7 +257,7 @@ $_SESSION['brndid']=$result->bid;
 </tr>
 
 <tr>
-<td>Power Door Locks</td>
+<td> verrouillage électrique des portes</td>
 <?php if($result->PowerDoorLocks==1)
 {
 ?>
@@ -267,7 +267,7 @@ $_SESSION['brndid']=$result->bid;
 <?php } ?>
                     </tr>
                     <tr>
-<td>Brake Assist</td>
+<td>assistance au freinage</td>
 <?php if($result->BrakeAssist==1)
 {
 ?>
@@ -278,7 +278,7 @@ $_SESSION['brndid']=$result->bid;
 </tr>
 
 <tr>
-<td>Driver Airbag</td>
+<td>Airbag conducteur</td>
 <?php if($result->DriverAirbag==1)
 {
 ?>
@@ -289,7 +289,7 @@ $_SESSION['brndid']=$result->bid;
  </tr>
  
  <tr>
- <td>Passenger Airbag</td>
+ <td>Airbag passager</td>
  <?php if($result->PassengerAirbag==1)
 {
 ?>
@@ -300,7 +300,7 @@ $_SESSION['brndid']=$result->bid;
 </tr>
 
 <tr>
-<td>Crash Sensor</td>
+<td>Caméra de recul et radar de stationnement</td>
 <?php if($result->CrashSensor==1)
 {
 ?>
@@ -333,10 +333,10 @@ $_SESSION['brndid']=$result->bid;
           </div>
           <form method="post">
             <div class="form-group">
-              <input type="text" class="form-control" name="fromdate" placeholder="From Date(dd/mm/yyyy)" required>
+              <input type="date" class="form-control" name="fromdate" placeholder="From Date(dd/mm/yyyy)" required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="todate" placeholder="To Date(dd/mm/yyyy)" required>
+              <input type="date" class="form-control" name="todate" placeholder="To Date(dd/mm/yyyy)" required>
             </div>
             <div class="form-group">
               <textarea rows="4" class="form-control" name="message" placeholder="Message" required></textarea>
@@ -361,7 +361,7 @@ $_SESSION['brndid']=$result->bid;
     
     <!--Similar-Cars-->
     <div class="similar_cars">
-      <h3>Similar Cars</h3>
+      <h3>voitures similaires</h3>
       <div class="row">
 <?php 
 $bid=$_SESSION['brndid'];
