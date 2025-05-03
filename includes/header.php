@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-md-2">
-          <div class="logo"> <a href="index.php"><img src="assets/images/logg.png" alt="image" style="width: 200px; height: 80px; left: 0; top: 0;"/></a> </div>
+          <div class="logo"> <a href="index.php"><img src="assets/images/logg.png" alt="image" style="width: 200px; height: 80px; left: 0; top: 0;ls"/></a> </div>
         </div>
         <div class="col-sm-9 col-md-10">
           <div class="header_info">
@@ -16,7 +16,7 @@
 <?php }
 else{
 
-echo "Bienvenue à la location de voiture";
+
  } ?>
           </div>
         </div>

@@ -152,7 +152,7 @@ $error="Something went wrong. Please try again";
 $pagetype=$_GET['type'];
 $sql = "SELECT Address,EmailId,ContactNo from tblcontactusinfo";
 $query = $dbh -> prepare($sql);
-$query->bindParam(':pagetype',$pagetype,PDO::PARAM_STR);
+
 $query->execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);
 $cnt=1;
@@ -166,12 +166,12 @@ foreach($results as $result)
               <div class="contact_info_m"><?php   echo htmlentities($result->Address); ?></div>
             </li>
             <li>
-              <div class="icon_wrap"><i class="fa fa-phone" aria-hidden="true"></i></div>
-              <div class="contact_info_m"><a href="tel:61-1234-567-90"><?php   echo htmlentities($result->EmailId); ?></a></div>
+              <div class="icon_wrap"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+              <div class="contact_info_m"><a href="mailto:contact@exampleurl.com"><?php   echo htmlentities($result->EmailId); ?></a></div>
             </li>
             <li>
-              <div class="icon_wrap"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-              <div class="contact_info_m"><a href="mailto:contact@exampleurl.com"><?php   echo htmlentities($result->ContactNo); ?></a></div>
+              <div class="icon_wrap"><i class="fa fa-phone" aria-hidden="true"></i></div>
+              <div class="contact_info_m"><a href="tel:61-1234-567-90"><?php   echo htmlentities($result->ContactNo); ?></a></div>
             </li>
           </ul>
         <?php }} ?>
@@ -180,7 +180,7 @@ foreach($results as $result)
     </div>
   </div>
 </section>
-<!-- /Contact-us--> 
+<!-- /Contact-us "tel:61-1234-567-90" mailto:contact@exampleurl.com ""  --> 
 
 
 <!--Footer -->
