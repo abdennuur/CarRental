@@ -118,7 +118,7 @@ foreach($results as $result)
 {	?>
 
 <div class="col-sm-8">
-<img src="img/vehicleimages/<?php echo htmlentities($result->Vimage1);?>" width="300" height="200" style="border:solid 1px #000">
+<img src="img/vehicleimages/<?php echo htmlentities($result->Vimage1);?>" width="1024" height="1024" style="border:solid 1px #000">
 </div>
 <?php }}?>
 </div>
