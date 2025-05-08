@@ -36,20 +36,20 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
       <div class="row">
 
         <div class="col-md-6">
-          <h6>About Us</h6>
+          <h6>À propos de nous</h6>
           <ul>
 
 
-          <li><a href="page.php?type=aboutus">About Us</a></li>
+          <li><a href="page.php?type=aboutus">À propos de nous</a></li>
             <li><a href="page.php?type=faqs">FAQs</a></li>
-            <li><a href="page.php?type=privacy">Privacy</a></li>
-          <li><a href="page.php?type=terms">Terms of use</a></li>
+            <li><a href="page.php?type=privacy">confidentialité</a></li>
+          <li><a href="page.php?type=terms">Termes d'utilisation</a></li>
                <li><a href="admin/">Admin Login</a></li>
           </ul>
         </div>
 
         <div class="col-md-3 col-sm-6">
-          <h6>Subscribe Newsletter</h6>
+          <h6>Abonner Newsletter</h6>
           <div class="newsletter-form">
             <form method="post">
               <div class="form-group">
@@ -57,7 +57,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
               </div>
               <button type="submit" name="emailsubscibe" class="btn btn-block">Subscribe <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
             </form>
-            <p class="subscribed-text">*We send great deals and latest auto news to our subscribed users very week.</p>
+            <p class="subscribed-text">*Nous envoyons des bonnes affaires et les dernières nouvelles auto à nos utilisateurs abonnés chaque semaine.</p>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-pull-6">
-          <p class="copy-right">Copyright &copy; 2017 Car Rental Portal.</p>
+          <p class="copy-right">Copyright &copy; 2025 CarBNB louez des voitures.</p>
         </div>
       </div>
     </div>

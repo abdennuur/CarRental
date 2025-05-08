@@ -182,7 +182,7 @@ continue;
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Price Per Day(in USD)<span style="color:red">*</span></label>
+<label class="col-sm-2 control-label">Price Per Day(in MAD)<span style="color:red">*</span></label>
 <div class="col-sm-4">
 <input type="text" name="priceperday" class="form-control" value="<?php echo htmlentities($result->PricePerDay);?>" required>
 </div>
@@ -191,9 +191,9 @@ continue;
 <select class="selectpicker" name="fueltype" required>
 <option value="<?php echo htmlentities($results->FuelType);?>"> <?php echo htmlentities($result->FuelType);?> </option>
 
-<option value="Petrol">Petrol</option>
+<option value="Petrol">Essence</option>
 <option value="Diesel">Diesel</option>
-<option value="CNG">CNG</option>
+<option value="CNG">Electric</option>
 </select>
 </div>
 </div>

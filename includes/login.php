@@ -57,8 +57,8 @@ echo "<script type='text/javascript'> document.location = '$currentpage'; </scri
         </div>
       </div>
       <div class="modal-footer text-center">
-        <p>Don't have an account? <a href="#signupform" data-toggle="modal" data-dismiss="modal">Signup Here</a></p>
-        <p><a href="#forgotpassword" data-toggle="modal" data-dismiss="modal">Forgot Password ?</a></p>
+        <p>Vous n’avez pas de compte? <a href="#signupform" data-toggle="modal" data-dismiss="modal">Inscrivez-vous ici</a></p>
+        <p><a href="#forgotpassword" data-toggle="modal" data-dismiss="modal">Mot de passe oublié ?</a></p>
       </div>
     </div>
   </div>

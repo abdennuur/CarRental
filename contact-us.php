@@ -35,7 +35,7 @@ $error="Something went wrong. Please try again";
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>CarForYou - Responsive Car Dealer HTML5 Template</title>
+<title>CatBNB louez des voitures - Contactez-nous</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -100,11 +100,11 @@ $error="Something went wrong. Please try again";
   <div class="container">
     <div class="page-header_wrap">
       <div class="page-heading">
-        <h1>Contact Us</h1>
+        <h1>Contactez-nous</h1>
       </div>
       <ul class="coustom-breadcrumb">
         <li><a href="#">Home</a></li>
-        <li>Contact Us</li>
+        <li>Contactez-nous</li>
       </ul>
     </div>
   </div>
@@ -118,21 +118,21 @@ $error="Something went wrong. Please try again";
   <div class="container">
     <div  class="row">
       <div class="col-md-6">
-        <h3>Get in touch using the form below</h3>
+        <h3>Utilisez le formulaire ci-dessous pour nous contacter</h3>
           <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
         else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
         <div class="contact_form gray-bg">
           <form  method="post">
             <div class="form-group">
-              <label class="control-label">Full Name <span>*</span></label>
+              <label class="control-label">nom complet <span>*</span></label>
               <input type="text" name="fullname" class="form-control white_bg" id="fullname" required>
             </div>
             <div class="form-group">
-              <label class="control-label">Email Address <span>*</span></label>
+              <label class="control-label"> Address Email<span>*</span></label>
               <input type="email" name="email" class="form-control white_bg" id="emailaddress" required>
             </div>
             <div class="form-group">
-              <label class="control-label">Phone Number <span>*</span></label>
+              <label class="control-label">numéro de téléphone <span>*</span></label>
               <input type="text" name="contactno" class="form-control white_bg" id="phonenumber" required>
             </div>
             <div class="form-group">

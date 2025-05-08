@@ -187,7 +187,7 @@ foreach($results as $result)
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Price Per Day(in USD)<span style="color:red">*</span></label>
+<label class="col-sm-2 control-label">Price Per Day(in Mad)<span style="color:red">*</span></label>
 <div class="col-sm-4">
 <input type="text" name="priceperday" class="form-control" required>
 </div>
@@ -196,9 +196,9 @@ foreach($results as $result)
 <select class="selectpicker" name="fueltype" required>
 <option value=""> Select </option>
 
-<option value="Petrol">Petrol</option>
+<option value="Petrol">essence</option>
 <option value="Diesel">Diesel</option>
-<option value="CNG">CNG</option>
+<option value="CNG">electric</option>
 </select>
 </div>
 </div>
