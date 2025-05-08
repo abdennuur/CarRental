@@ -2,9 +2,9 @@
 <header>
   <div class="default-header">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-md-2">
-          <div class="logo"> <a href="index.php"><img src="assets/images/logg.png" alt="image" style="width: 200px; height: 80px; left: 0; top: 0;ls"/></a> </div>
+      <div class="row align-items-center">
+        <div class="col-sm-4 col-md-3 logo-column">
+          <div class="logo-link"> <a href="index.php"><img src="assets/images/logg.png" alt="image" style="width: 200px; height: 80px; left: 0; top: 0;ls"/></a> </div>
         </div>
         <div class="col-sm-9 col-md-10">
           <div class="header_info">
@@ -56,12 +56,12 @@ foreach($results as $result)
           <li><a href="my-testimonials.php">My Testimonial</a></li>
             <li><a href="logout.php">Sign Out</a></li>
             <?php } else { ?>
-            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Profile Settings</a></li>
-              <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Update Password</a></li>
-            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">My Booking</a></li>
+            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">paramètres de profi</a></li>
+              <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Mettre à jour le mot de passe</a></li>
+            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">réservation</a></li>
             <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Post a Testimonial</a></li>
-          <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">My Testimonial</a></li>
-            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Sign Out</a></li>
+          <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">mon témoignage</a></li>
+            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">se déconnecter</a></li>
             <?php } ?>
           </ul>
             </li>
