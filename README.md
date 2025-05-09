@@ -51,3 +51,57 @@ A full-featured online car rental platform enabling users to book vehicles and a
    ```bash
    # Start Apache and MySQL
    sudo service apache2 start && sudo service mysql start
+
+### Deploy Project
+ # Extract to server directory:
+XAMPP: htdocs/CarRental
+WAMP: www/CarRental
+
+### Database Setup
+CREATE DATABASE carrental;
+USE carrental;
+SOURCE path/to/carrental.sql;
+
+### Access Application
+    Frontend: http://localhost/CarRental
+    Admin Panel: http://localhost/CarRental/admin
+Default Admin Credentials:
+Username: admin
+Password: admin
+
+### Usage
+For Administrators
+Manage vehicles through Brands > Vehicles
+
+Monitor bookings in real-time
+
+Update website content via Pages Manager
+
+Handle user testimonials and messages
+
+For Users
+Register/Login to account
+
+Browse and book vehicles
+
+Manage bookings in dashboard
+
+Submit testimonials post-rental
+
+### Customization
+// config.php
+$host = "localhost";
+$user = "root"; 
+$pass = "";
+$database = "carrental";
+
+### 🤝 Contributing
+Fork repository
+
+Create feature branch (git checkout -b feature/NewFeature)
+
+Commit changes (git commit -m 'Add NewFeature')
+
+Push to branch (git push origin feature/NewFeature)
+
+Open Pull Request
