@@ -12,7 +12,7 @@ error_reporting(0);
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>Car Rental Portal | Car Listing</title>
+<title>CarBNB| Car Listing</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -113,7 +113,7 @@ foreach($results as $result)
           </div>
           <div class="product-listing-content">
             <h5><a href="vehical-details.php?vhid=<?php echo htmlentities($result->id);?>"><?php echo htmlentities($result->BrandName);?> , <?php echo htmlentities($result->VehiclesTitle);?></a></h5>
-            <p class="list-price">$<?php echo htmlentities($result->PricePerDay);?> Per Day</p>
+            <p class="list-price"><?php echo htmlentities($result->PricePerDay);?>.MAD par jour</p>
             <ul>
               <li><i class="fa fa-user" aria-hidden="true"></i><?php echo htmlentities($result->SeatingCapacity);?> seats</li>
               <li><i class="fa fa-calendar" aria-hidden="true"></i><?php echo htmlentities($result->ModelYear);?> model</li>
@@ -154,9 +154,9 @@ foreach($results as $result)
               <div class="form-group select">
               <select class="form-control" name="fueltype">
               <option>Select Fuel Type</option>
-<option value="Petrol">Petrol</option>
+<option value="Petrol">essence</option>
 <option value="Diesel">Diesel</option>
-<option value="CNG">CNG</option>
+<option value="CNG">electric</option>
                 </select>
               </div>
              
@@ -186,7 +186,7 @@ foreach($results as $result)
               <li class="gray-bg">
                 <div class="recent_post_img"> <a href="vehical-details.php?vhid=<?php echo htmlentities($result->id);?>"><img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage1);?>" alt="image"></a> </div>
                 <div class="recent_post_title"> <a href="vehical-details.php?vhid=<?php echo htmlentities($result->id);?>"><?php echo htmlentities($result->BrandName);?> , <?php echo htmlentities($result->VehiclesTitle);?></a>
-                  <p class="widget_price">$<?php echo htmlentities($result->PricePerDay);?> Per Day</p>
+                  <p class="widget_price"><?php echo htmlentities($result->PricePerDay);?>.MAD par jour</p>
                 </div>
               </li>
               <?php }} ?>
