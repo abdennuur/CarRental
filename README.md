@@ -89,19 +89,19 @@ Manage bookings in dashboard
 Submit testimonials post-rental
 
 ### Customization
-// config.php
-$host = "localhost";
-$user = "root"; 
-$pass = "";
-$database = "carrental";
+    // config.php
+    $host = "localhost";
+    $user = "root"; 
+    $pass = "";
+    $database = "carrental";
 
 ### 🤝 Contributing
-Fork repository
+    Fork repository
 
-Create feature branch (git checkout -b feature/NewFeature)
+    Create feature branch (git checkout -b feature/NewFeature)
 
-Commit changes (git commit -m 'Add NewFeature')
+    Commit changes (git commit -m 'Add NewFeature')
 
-Push to branch (git push origin feature/NewFeature)
+    Push to branch (git push origin feature/NewFeature)
 
-Open Pull Request
+    Open Pull Request
