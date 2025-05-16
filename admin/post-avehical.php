@@ -196,7 +196,7 @@ foreach($results as $result)
 <select class="selectpicker" name="fueltype" required>
 <option value=""> Select </option>
 
-<option value="Petrol">essence</option>
+<option value="">essence</option>
 <option value="Diesel">Diesel</option>
 <option value="CNG">electric</option>
 </select>

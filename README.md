@@ -95,7 +95,7 @@ Submit testimonials post-rental
     $pass = "";
     $database = "carrental";
 
-### 🤝 Contributing
+## 🤝 Contributing
     Fork repository
 
     Create feature branch (git checkout -b feature/NewFeature)

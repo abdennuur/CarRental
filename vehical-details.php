@@ -329,7 +329,7 @@ $_SESSION['brndid']=$result->bid;
         </div>
         <div class="sidebar_widget">
           <div class="widget_heading">
-            <h5><i class="fa fa-envelope" aria-hidden="true"></i>Book Now</h5>
+            <h5><i class="fa fa-envelope" aria-hidden="true"></i>réserver maintenant</h5>
           </div>
           <form method="post">
             <div class="form-group">
@@ -344,10 +344,10 @@ $_SESSION['brndid']=$result->bid;
           <?php if($_SESSION['login'])
               {?>
               <div class="form-group">
-                <input type="submit" class="btn"  name="submit" value="Book Now">
+                <input type="submit" class="btn"  name="submit" value="réserver maintenant">
               </div>
               <?php } else { ?>
-<a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal" data-dismiss="modal">Login For Book</a>
+<a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal" data-dismiss="modal">réserver maintenant</a>
 
               <?php } ?>
           </form>

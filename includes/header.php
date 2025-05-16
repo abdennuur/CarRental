@@ -49,14 +49,14 @@ foreach($results as $result)
 	 echo htmlentities($result->FullName); }}?><i class="fa fa-angle-down" aria-hidden="true"></i></a>
               <ul class="dropdown-menu">
            <?php if($_SESSION['login']){?>
-            <li><a href="profile.php">Profile Settings</a></li>
-              <li><a href="update-password.php">Update Password</a></li>
-            <li><a href="my-booking.php">My Booking</a></li>
+            <li><a href="profile.php">paramètres de profil</a></li>
+              <li><a href="update-password.php">Mettre à jour le mot de passe</a></li>
+            <li><a href="my-booking.php"> mes réservation</a></li>
             <li><a href="post-testimonial.php">Post a Testimonial</a></li>
           <li><a href="my-testimonials.php">My Testimonial</a></li>
-            <li><a href="logout.php">Sign Out</a></li>
+            <li><a href="logout.php">se déconnecter</a></li>
             <?php } else { ?>
-            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">paramètres de profi</a></li>
+            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">paramètres de profil</a></li>
               <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Mettre à jour le mot de passe</a></li>
             <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">réservation</a></li>
             <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Post a Testimonial</a></li>
