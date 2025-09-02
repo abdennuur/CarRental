@@ -48,7 +48,7 @@ echo "<script type='text/javascript'> document.location = '$currentpage'; </scri
                
                 </div>
                 <div class="form-group">
-                  <input type="submit" name="login" value="Login" class="btn btn-block">
+                  <input type="submit" name="login" value="Se Connecter" class="btn btn-block">
                 </div>
               </form>
             </div>
