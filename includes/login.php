@@ -30,7 +30,7 @@ echo "<script type='text/javascript'> document.location = '$currentpage'; </scri
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title">Login</h3>
+        <h3 class="modal-title">Se Connecter</h3>
       </div>
       <div class="modal-body">
         <div class="row">
@@ -38,10 +38,10 @@ echo "<script type='text/javascript'> document.location = '$currentpage'; </scri
             <div class="col-md-12 col-sm-6">
               <form method="post">
                 <div class="form-group">
-                  <input type="email" class="form-control" name="email" placeholder="Email address*">
+                  <input type="email" class="form-control" name="email" placeholder=" Adresse Email*">
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control" name="password" placeholder="Password*">
+                  <input type="password" class="form-control" name="password" placeholder=" Mot De Passe*">
                 </div>
                 <div class="form-group checkbox">
                   <input type="checkbox" id="remember">
