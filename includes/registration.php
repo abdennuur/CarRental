@@ -59,7 +59,7 @@ return true;
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title">Sign Up</h3>
+        <h3 class="modal-title">S'inscrire</h3>
       </div>
       <div class="modal-body">
         <div class="row">
@@ -67,10 +67,10 @@ return true;
             <div class="col-md-12 col-sm-6">
               <form  method="post" name="signup" onSubmit="return valid();">
                 <div class="form-group">
-                  <input type="text" class="form-control" name="fullname" placeholder="Full Name" required="required">
+                  <input type="text" class="form-control" name="fullname" placeholder="Nom et Prénom" required="required">
                 </div>
                       <div class="form-group">
-                  <input type="text" class="form-control" name="mobileno" placeholder="Mobile Number" maxlength="10" required="required">
+                  <input type="text" class="form-control" name="mobileno" placeholder="Numéro de Portable" maxlength="10" required="required">
                 </div>
                 <div class="form-group">
                   <input type="email" class="form-control" name="emailid" id="emailid" onBlur="checkAvailability()" placeholder="Email Address" required="required">
